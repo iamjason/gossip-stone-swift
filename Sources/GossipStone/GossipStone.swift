@@ -12,7 +12,7 @@ import Foundation
 /// - Nothing is sent while running under XCTest.
 public enum GossipStone {
     /// The production collector.
-    public static let defaultEndpoint = URL(string: "https://gossip-stone.jason-r-garrett.workers.dev/v1/events")!
+    public static let defaultEndpoint = URL(string: "https://gossip-stone.iamjason.workers.dev/v1/events")!
 
     private static let installIDKey = "GossipStone.installID"
     private static let state = State()
