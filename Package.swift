@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "GossipStone",
-    platforms: [.macOS(.v14)],
+    platforms: [.macOS(.v14), .iOS(.v17), .watchOS(.v10)],
     products: [
         .library(name: "GossipStone", targets: ["GossipStone"]),
     ],
